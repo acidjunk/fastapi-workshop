@@ -7,7 +7,7 @@ This is the fastapi version of the workshop
 ```
 mkvirtualenv --python=/usr/local/bin/python3 fastapi-workshop
 pip install -r requirements.txt
-createdb workskop
+createdb workshop
 createuser workshop -sP
 psql -d workshop < workshop_initial.psql
 uvicorn main:app --reload
